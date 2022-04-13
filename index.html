@@ -1,1 +1,280 @@
-Hello World
+<!-- Create your About page here. Make sure you include citations -->
+<!-- Your main page should go here -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Sepehr Alipour" />
+    <meta name="description" content="107296212" />
+    <title>Sepehr Alipour</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/res/style.css" />
+    <script src="https://kit.fontawesome.com/3413032e2e.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="res/scripts.js"></script>
+  </head>
+  <body>
+    <main>
+      <article class="container">
+        <section id="about">
+          <figure>
+            <img src="/res/img/profile.jpg" width="250" alt="Sepehr Alipour" class="circle" />
+            <h1 class="title">Sepehr Alipour</h1>
+            <p class="description">Software Developer</p>
+            <div class="action-button">
+              <a title="Resume" class="button" target="blank" href="res/CV(Sepehr-Alipour).pdf"
+                ><i class="fa-solid fa-download"></i> Resume
+              </a>
+              <a title="Contact" class="button" href="#contact">Contact </a>
+            </div>
+          </figure>
+
+          <h2>About Me</h2>
+          <div class="card">
+            <p>
+              My name is <strong>Sepehr</strong> which means <strong>"Sky"</strong> in the
+              <em>Persian</em> language. Since creating something new always makes me satisfied, I
+              started learning programming from my childhood by
+              <a target="blank" href="https://en.wikipedia.org/wiki/I386"> I386</a> CPU generation
+              and <a target="blank" href="https://en.wikipedia.org/wiki/MS-DOS">MS-DOS</a> OS. I
+              have some experience in the mobile application development of Android and I am
+              passionate about learning new technologies to utilize them in my lifestyle. I always
+              try to find automated solutions for routine processes. I love animals and birds are my
+              favorite species because they are always free and can travel whenever they prefer. For
+              this project, I used
+              <a target="blank" href="https://watercss.kognise.dev/">"Water.css"</a> to style the
+              website. And the images are extracted from
+              <a target="blank" href="https://search.creativecommons.org/ ">"Creativecommons"</a>
+              and <a target="blank" href="https://icons8.com/">"Icons8"</a>website.
+            </p>
+            <hr />
+            <div class="row">
+              <div class="col">
+                <span class="bold">Age: </span>
+                30
+              </div>
+              <div class="col">
+                <span class="bold">Email: </span>
+                <a href="mailto:salipour2@myseneca.ca">salipour2@myseneca.ca</a>
+              </div>
+              <div class="col">
+                <span class="bold">Language: </span>
+                English, Persian
+              </div>
+              <div class="col">
+                <span class="bold">Class Section: </span>
+                NAA
+              </div>
+              <div class="col">
+                <span class="bold">Student ID: </span>
+                107296212
+              </div>
+              <div class="col">
+                <span class="bold">Instructor: </span>
+                David Humphrey
+              </div>
+            </div>
+          </div>
+        </section>
+        <h2>Honesty Statement</h2>
+        <section id="statement" class="card">
+          <p>
+            I declare that my assessment is wholly my own work in accordance with Seneca Academic
+            Policy. No part of this assessment has been copied manually or electronically from any
+            other source (including web sites) except for the information supplied by the WEB222
+            instructors and / or made available in this assessment for my use. I also declare that
+            no part of this assignment has been distributed to other students.
+          </p>
+          <div class="date">
+            <span class="bold">Date: </span><time datetime="2022-04-12">April 12, 2022</time>
+          </div>
+        </section>
+        <h2>Education</h2>
+        <section id="education" class="card">
+          <div class="row">
+            <div class="col">
+              <h3>Advanced Diploma - Computer Programming</h3>
+              <h5>Seneca College, Canada</h5>
+            </div>
+            <div class="col year">2010 - 2015</div>
+          </div>
+          <hr />
+          <div class="row">
+            <div class="col">
+              <h3>Bachelor's Degree - Software Engineering</h3>
+              <h5>Parand Azad University, Iran</h5>
+            </div>
+            <div class="col year">2021 - 2023</div>
+          </div>
+        </section>
+        <h2>Contact Me</h2>
+        <section id="contact" class="card">
+          <form id="contact-form" action="https://httpbin.org/post" method="post">
+            <div class="row">
+              <label for="name"><span class="text-danger">*</span> Name</label>
+              <input
+                id="name"
+                name="name"
+                autocomplete="given-name"
+                type="text"
+                tabindex="1"
+                required
+              />
+            </div>
+            <div class="row">
+              <label for="email"><span class="text-danger">*</span> Email Address</label>
+              <input
+                id="email"
+                name="email"
+                autocomplete="email"
+                type="email"
+                tabindex="2"
+                required
+              />
+            </div>
+            <div class="row">
+              <label for="phone"><span class="text-danger">*</span> Phone Number</label>
+              <input id="phone" name="phone" autocomplete="tel" type="tel" tabindex="3" required />
+            </div>
+            <div class="row">
+              <label for="address"><span class="text-danger">*</span> Street Address</label>
+              <input
+                id="address"
+                name="address"
+                autocomplete="street-address"
+                type="text"
+                tabindex="4"
+                required
+              />
+            </div>
+            <div class="row">
+              <label for="city"><span class="text-danger">*</span> City</label>
+              <input list="cites" id="city" name="city" tabindex="5" required />
+
+              <datalist id="cites">
+                <option value="Toronto"></option>
+                <option value="Vancouver"></option>
+                <option value="Montreal"></option>
+                <option value="Niagara Falls"></option>
+                <option value="Victoria"></option>
+                <option value="Halifax"></option>
+                <option value="Quebec City"></option>
+                <option value="Calgary"></option>
+                <option value="Ottawa"></option>
+                <option value="Edmonton"></option>
+              </datalist>
+            </div>
+            <div class="row">
+              <label for="postal-code"><span class="text-danger">*</span> Postal Code</label>
+              <input
+                id="postal-code"
+                name="post-code"
+                autocomplete="postal-code"
+                type="text"
+                tabindex="6"
+                placeholder="M2M 3Z2"
+                pattern="^[A-Za-z]\d[A-Za-z][ -]?\d[A-Za-z]\d$"
+                required
+              />
+            </div>
+            <div class="row">
+              <label><span class="text-danger">*</span> Message Type:</label>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="question-type"
+                  id="radio-question"
+                  value="question"
+                  checked
+                  tabindex="7"
+                />
+                <label class="form-check-label" for="radio-comment">Question</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="question-type"
+                  id="radio-comment"
+                  value="comment"
+                  tabindex="8"
+                />
+                <label class="form-check-label" for="radio-hiring">Comment</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="question-type"
+                  id="radio-hiring"
+                  value="hiring"
+                  tabindex="9"
+                />
+                <label class="form-check-label" for="radio-hiring">Hiring</label>
+              </div>
+            </div>
+            <div id="rate-input" class="row hidden">
+              <label for="rate"><span class="text-danger">*</span> Hourly Rate</label>
+              <input
+                id="rate"
+                name="rate"
+                autocomplete="number"
+                type="number"
+                tabindex="10"
+                value=""
+              />
+            </div>
+            <div class="row">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" tabindex="11" required></textarea>
+            </div>
+            <div class="row">
+              <input class="button" type="submit" name="submit" value="Submit" tabindex="12" />
+            </div>
+          </form>
+        </section>
+        <hr />
+        <div class="links">
+          <ul class="social">
+            <li>
+              <a target="blank" href="https://facebook.com/alipour.dev"
+                ><img
+                  src="https://img.icons8.com/ios-glyphs/24/ffffff/facebook-new.png"
+                  alt="facebook"
+                  width="24"
+              /></a>
+            </li>
+            <li>
+              <a target="blank" href="https://twitter.com/sepehr_alipour"
+                ><img
+                  src="https://img.icons8.com/ios-glyphs/24/ffffff/twitter--v1.png"
+                  alt="twitter"
+                  width="24"
+              /></a>
+            </li>
+            <li>
+              <a target="blank" href="https://www.instagram.com/alipour_sepehr"
+                ><img
+                  src="https://img.icons8.com/ios-glyphs/24/ffffff/instagram-new.png"
+                  alt="instagram"
+                  width="24"
+              /></a>
+            </li>
+            <li>
+              <a target="blank" href="https://github.com/sepehr-alipour"
+                ><img
+                  src="https://img.icons8.com/ios-glyphs/24/ffffff/github.png"
+                  alt="instagram"
+                  width="24"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <footer>
+          <span>© 2022. All Right Reserved </span>
+          <address class="power">Powered by Sepehr</address>
+        </footer>
+      </article>
+    </main>
+  </body>
+</html>
