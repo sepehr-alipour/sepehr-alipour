@@ -12,7 +12,7 @@ const sepehr = {
   pronouns: "he | him",
   languages: [Java, Kotlin, Javascript, HTML, CSS],
   technologies: {
-    progectManagement: [Trello, Jira, Asana],
+    projectManagement: [Trello, Jira, Asana],
     ide: ["Android Studio", "Visual Studio Code", "IntelliJ IDEA"],
     apiTools: [Postman, Charles],
     vcs: {
