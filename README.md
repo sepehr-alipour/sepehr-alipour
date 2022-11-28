@@ -8,7 +8,7 @@ My name is **Sepehr** which means **"Sky"** in the <em>Persian</em> language. Si
 
 ```javascript
 const sepehr = {
-{
+
   pronouns: "he | him",
   languages: [Java, Kotlin, Javascript, HTML, CSS],
   technologies: {
