@@ -23,7 +23,7 @@ const sepehr = {
     },
     frontEnd: {
       CSS: [bootstrap, "Tailwind CSS"],
-      framework: [react, vue]
+      framework: [react, Vue.js]
     },
     backEnd: {
       js: [node],
