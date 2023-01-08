@@ -1,5 +1,6 @@
 ### Hi there 👋
-My name is **Sepehr** which means **"Sky"** in the <em>Persian</em> language. Since creating something new always makes me satisfied, I  started learning programming in my childhood by [I386]("https://en.wikipedia.org/wiki/I386") CPU generation and [MS-DOS]("https://en.wikipedia.org/wiki/MS-DOS") OS. I have 6 years of experience in  mobile application development (Android) and I have 3 years of experience in developing web applications as a Front-End. I am passionate about learning new technologies to utilize them in my lifestyle. I always try to find automated solutions for routine processes. I love animals and birds which my favorite species is birds because they are always free and can travel whenever they prefer. 
+My name is **Sepehr** which means **"Sky"** in <em>Persian</em>. With 6 years of experience in mobile app development (Android) and 3 years in web development as a Front-End developer, I am constantly seeking out new technologies to learn and apply in my work. I am passionate about finding innovative solutions to improve efficiency and streamline processes.
+
 
 ![Twitter Follow](https://img.shields.io/twitter/follow/sepehr_alipour?style=social)
 [![Linkedin: sepehralipour](https://img.shields.io/badge/-sepehralipour-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://[https://www.linkedin.com/in/sepehralipour/]([https://www.linkedin.com/in/sepehralipour/](https://www.linkedin.com/in/sepehralipour/)))](https://www.linkedin.com/in/sepehralipour/)
