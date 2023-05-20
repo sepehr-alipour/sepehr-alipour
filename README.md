@@ -2,7 +2,7 @@
 My name is **Sepehr** which means **"Sky"** in <em>Persian</em>. With 6 years of experience in mobile app development (Android) and 3 years in web development as a Front-End developer, I am constantly seeking out new technologies to learn and apply in my work. I am passionate about finding innovative solutions to improve efficiency and streamline processes.
 
 
-![Twitter Follow](https://img.shields.io/twitter/follow/sepehr_alipour?style=social)
+![Twitter Follow](https://img.shields.io/twitter/follow/sepehr_dev?style=social)
 [![Linkedin: sepehralipour](https://img.shields.io/badge/-sepehralipour-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://[https://www.linkedin.com/in/sepehralipour/]([https://www.linkedin.com/in/sepehralipour/](https://www.linkedin.com/in/sepehralipour/)))](https://www.linkedin.com/in/sepehralipour/)
 
 ### aboutMe.js
